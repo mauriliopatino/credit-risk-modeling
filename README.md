@@ -25,15 +25,18 @@ A series of technical notes and Python notebooks on credit portfolio risk, start
 
 ### Papers
 
+* A. Sklar. "Fonctions de répartition à n dimensions et leurs marges". Publications de l'Institut de Statistique de l'Université de Paris, 8:229–231, 1959.
+* M. Sibuya. "Bivariate Extreme Statistics". Annals of the Institute of Statistical Mathematics, 11(2):195–210, 1960.
 * P. Artzner, F. Delbaen, J.-M. Eber, D. Heath. "Coherent Measures of Risk". Mathematical Finance, 9(3):203–228, 1999.
+* D. X. Li. "On Default Correlation: A Copula Function Approach". Journal of Fixed Income, 9(4):43–54, 2000.
 * C. Acerbi, D. Tasche. "On the Coherence of Expected Shortfall". Journal of Banking & Finance, 26(7):1487–1503, 2002.
 * C. Acerbi. "Spectral Measures of Risk: A Coherent Representation of Subjective Risk Aversion". Journal of Banking & Finance, 26(7):1505–1518, 2002.
-* M. B. Gordy. "A Risk-Factor Model Foundation for Ratings-Based Bank Capital Rules". Journal of Financial Intermediation, 12(3):199–232, 2003.
 * O. Vasicek. "The Distribution of Loan Portfolio Value". Risk, 15(12):160–162, 2002.
-* T. Gneiting. "Making and Evaluating Point Forecasts". Journal of the American Statistical Association, 106(494):746–762, 2011.
-* S. Emmer, M. Kratz, D. Tasche. "What Is the Best Risk Measure in Practice? A Comparison of Standard Measures". Journal of Risk, 18(2):31–60, 2015.
+* M. B. Gordy. "A Risk-Factor Model Foundation for Ratings-Based Bank Capital Rules". Journal of Financial Intermediation, 12(3):199–232, 2003.
 * A. Hamerle, D. Rösch. "Misspecified Copulas in Credit Risk Models: How Good is Gaussian?". Journal of Risk, 8(1):41–58, 2005.
 * D. Brigo, A. Pallavicini, R. Torresetti. "Credit Models and the Crisis: A Journey into CDOs, Copulas, Correlations and Dynamic Models". Wiley, 2010.
+* T. Gneiting. "Making and Evaluating Point Forecasts". Journal of the American Statistical Association, 106(494):746–762, 2011.
+* S. Emmer, M. Kratz, D. Tasche. "What Is the Best Risk Measure in Practice? A Comparison of Standard Measures". Journal of Risk, 18(2):31–60, 2015.
 
 ### Regulatory Documents
 
