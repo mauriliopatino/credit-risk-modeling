@@ -6,45 +6,49 @@ A series of technical notes and Python notebooks on credit portfolio risk, start
 
 ## Contents
 
-|#|Topic|Format|Link|
-|-|-|-|-|
-|1|Why does the Basel II IRB formula work?|PDF|[ASRF\_Proof.pdf](ASRF_Proof.pdf)|
-|2|Simulating credit portfolios: from VBA to vectorized Python|Notebook + PDF|[Notebook](Loss_Dist_MC_Convergence.ipynb) · [PDF](Loss_Dist_MC_Convergence.pdf)|
-|3|VaR vs Expected Shortfall: the technical case|Notebook + PDF|[Notebook](VaR_vs_Expected_Shortfall.ipynb) · [PDF](VaR_vs_Expected_Shortfall.pdf)|
-|4|The copula inside the Basel formula|Notebook + PDF|[Notebook](The_Copula_Inside_the_Basel_Formula.ipynb) · [PDF](The_Copula_Inside_the_Basel_Formula.pdf)|
+| # | Topic | Format | Link |
+|---|-------|--------|------|
+| 1 | Why does the Basel II IRB formula work? | PDF | [ASRF_Proof.pdf](ASRF_Proof.pdf) |
+| 2 | Simulating credit portfolios: from VBA to vectorized Python | Notebook + PDF | [Notebook](Loss_Dist_MC_Convergence.ipynb) · [PDF](Loss_Dist_MC_Convergence.pdf) |
+| 3 | VaR vs Expected Shortfall: the technical case | Notebook + PDF | [Notebook](VaR_vs_Expected_Shortfall.ipynb) · [PDF](VaR_vs_Expected_Shortfall.pdf) |
+| 4 | The copula inside the Basel formula | Notebook + PDF | [Notebook](The_Copula_Inside_the_Basel_Formula.ipynb) · [PDF](The_Copula_Inside_the_Basel_Formula.pdf) |
+| 5 | Why does Basel survive heavy tails? | Notebook + PDF | [Notebook](Misspecified_Copulas_in_Credit_Risk.ipynb) · [PDF](Why_Basel_Survives_Heavy_Tails.pdf) |
 
 ## References
 
 ### Books
 
-* C. Bluhm, L. Overbeck, Ch. Wagner. "An Introduction to Credit Risk Modelling". Chapman & Hall/CRC, 2003.
-* G. Löffler, P. Posch. "Credit Risk Modeling using Excel and VBA". Wiley, 2nd ed.
-* P. Glasserman. "Monte Carlo Methods in Financial Engineering". Springer, 2003.
-* D. Rösch, H. Scheule. "Deep Credit Risk: Machine Learning with Python". 2020.
-* A. J. McNeil, R. Frey, P. Embrechts. "Quantitative Risk Management: Concepts, Techniques and Tools". Princeton University Press, revised ed., 2015.
+- C. Bluhm, L. Overbeck, Ch. Wagner. "An Introduction to Credit Risk Modelling". Chapman & Hall/CRC, 2003.
+- G. Löffler, P. Posch. "Credit Risk Modeling using Excel and VBA". Wiley, 2nd ed.
+- P. Glasserman. "Monte Carlo Methods in Financial Engineering". Springer, 2003.
+- R. B. Nelsen. "An Introduction to Copulas". Springer, 2nd ed., 2006.
+- D. Rösch, H. Scheule. "Deep Credit Risk: Machine Learning with Python". 2020.
+- A. J. McNeil, R. Frey, P. Embrechts. "Quantitative Risk Management: Concepts, Techniques and Tools". Princeton University Press, revised ed., 2015.
 
 ### Papers
 
-* A. Sklar. "Fonctions de répartition à n dimensions et leurs marges". Publications de l'Institut de Statistique de l'Université de Paris, 8:229–231, 1959.
-* M. Sibuya. "Bivariate Extreme Statistics". Annals of the Institute of Statistical Mathematics, 11(2):195–210, 1960.
-* P. Artzner, F. Delbaen, J.-M. Eber, D. Heath. "Coherent Measures of Risk". Mathematical Finance, 9(3):203–228, 1999.
-* D. X. Li. "On Default Correlation: A Copula Function Approach". Journal of Fixed Income, 9(4):43–54, 2000.
-* C. Acerbi, D. Tasche. "On the Coherence of Expected Shortfall". Journal of Banking & Finance, 26(7):1487–1503, 2002.
-* C. Acerbi. "Spectral Measures of Risk: A Coherent Representation of Subjective Risk Aversion". Journal of Banking & Finance, 26(7):1505–1518, 2002.
-* O. Vasicek. "The Distribution of Loan Portfolio Value". Risk, 15(12):160–162, 2002.
-* M. B. Gordy. "A Risk-Factor Model Foundation for Ratings-Based Bank Capital Rules". Journal of Financial Intermediation, 12(3):199–232, 2003.
-* A. Hamerle, D. Rösch. "Misspecified Copulas in Credit Risk Models: How Good is Gaussian?". Journal of Risk, 8(1):41–58, 2005.
-* D. Brigo, A. Pallavicini, R. Torresetti. "Credit Models and the Crisis: A Journey into CDOs, Copulas, Correlations and Dynamic Models". Wiley, 2010.
-* T. Gneiting. "Making and Evaluating Point Forecasts". Journal of the American Statistical Association, 106(494):746–762, 2011.
-* S. Emmer, M. Kratz, D. Tasche. "What Is the Best Risk Measure in Practice? A Comparison of Standard Measures". Journal of Risk, 18(2):31–60, 2015.
+- A. Sklar. "Fonctions de répartition à n dimensions et leurs marges". Publications de l'Institut de Statistique de l'Université de Paris, 8:229–231, 1959.
+- M. Sibuya. "Bivariate Extreme Statistics". Annals of the Institute of Statistical Mathematics, 11(2):195–210, 1960.
+- A. J. McNeil, R. Frey, M. A. Nyfeler. "Copulas and Credit Models". Risk, 14(10):111–114, 2001.
+- P. Artzner, F. Delbaen, J.-M. Eber, D. Heath. "Coherent Measures of Risk". Mathematical Finance, 9(3):203–228, 1999.
+- D. X. Li. "On Default Correlation: A Copula Function Approach". Journal of Fixed Income, 9(4):43–54, 2000.
+- P. Embrechts, A. J. McNeil, D. Straumann. "Correlation and Dependence in Risk Management: Properties and Pitfalls". Risk Management: Value at Risk and Beyond, pages 176–223, 2002.
+- C. Acerbi, D. Tasche. "On the Coherence of Expected Shortfall". Journal of Banking & Finance, 26(7):1487–1503, 2002.
+- C. Acerbi. "Spectral Measures of Risk: A Coherent Representation of Subjective Risk Aversion". Journal of Banking & Finance, 26(7):1505–1518, 2002.
+- O. Vasicek. "The Distribution of Loan Portfolio Value". Risk, 15(12):160–162, 2002.
+- M. B. Gordy. "A Risk-Factor Model Foundation for Ratings-Based Bank Capital Rules". Journal of Financial Intermediation, 12(3):199–232, 2003.
+- A. Hamerle, D. Rösch. "Misspecified Copulas in Credit Risk Models: How Good is Gaussian?". Journal of Risk, 8(1):41–58, 2005.
+- D. Brigo, A. Pallavicini, R. Torresetti. "Credit Models and the Crisis: A Journey into CDOs, Copulas, Correlations and Dynamic Models". Wiley, 2010.
+- T. Gneiting. "Making and Evaluating Point Forecasts". Journal of the American Statistical Association, 106(494):746–762, 2011.
+- S. Emmer, M. Kratz, D. Tasche. "What Is the Best Risk Measure in Practice? A Comparison of Standard Measures". Journal of Risk, 18(2):31–60, 2015.
 
 ### Regulatory Documents
 
-* Basel Committee on Banking Supervision. "An Explanatory Note on the Basel II IRB Risk Weight Functions". BIS, 2005.
-* Basel Committee on Banking Supervision. "Minimum Capital Requirements for Market Risk". BIS, 2019.
-* EIOPA. "The Underlying Assumptions in the Standard Formula for the Solvency Capital Requirement Calculation". 2014.
-* Swiss Federal Office of Private Insurance. "Technical Document on the Swiss Solvency Test". FOPI, 2006.
-* OSFI Canada. "Mortgage Insurer Capital Adequacy Test (MICAT) Guideline". 2025.
+- Basel Committee on Banking Supervision. "An Explanatory Note on the Basel II IRB Risk Weight Functions". BIS, 2005.
+- Basel Committee on Banking Supervision. "Minimum Capital Requirements for Market Risk". BIS, 2019.
+- EIOPA. "The Underlying Assumptions in the Standard Formula for the Solvency Capital Requirement Calculation". 2014.
+- Swiss Federal Office of Private Insurance. "Technical Document on the Swiss Solvency Test". FOPI, 2006.
+- OSFI Canada. "Mortgage Insurer Capital Adequacy Test (MICAT) Guideline". 2025.
 
 ## License
 
