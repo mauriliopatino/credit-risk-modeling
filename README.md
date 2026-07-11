@@ -12,7 +12,7 @@ A series of technical notes and Python notebooks on credit portfolio risk, start
 | 2 | Simulating credit portfolios: from VBA to vectorized Python | Notebook + PDF | [Notebook](Loss_Dist_MC_Convergence.ipynb) · [PDF](Loss_Dist_MC_Convergence.pdf) |
 | 3 | VaR vs Expected Shortfall: the technical case | Notebook + PDF | [Notebook](VaR_vs_Expected_Shortfall.ipynb) · [PDF](VaR_vs_Expected_Shortfall.pdf) |
 | 4 | The copula inside the Basel formula | Notebook + PDF | [Notebook](The_Copula_Inside_the_Basel_Formula.ipynb) · [PDF](The_Copula_Inside_the_Basel_Formula.pdf) |
-| 5 | Why does Basel survive heavy tails? | Notebook + PDF | [Notebook](Misspecified_Copulas_in_Credit_Risk.ipynb) · [PDF](Why_Basel_Survives_Heavy_Tails.pdf) |
+| 5 | Why does Basel survive heavy tails? | Notebook + PDF | [Notebook](Misspecified_Copulas_in_Credit_Risk.ipynb) · [PDF](Why%20Basel%20Survives%20Heavy%20Tails.pdf) |
 
 ## References
 
@@ -52,4 +52,4 @@ A series of technical notes and Python notebooks on credit portfolio risk, start
 
 ## License
 
-This material is shared for educational purposes. The code is provided as-is with no warranty.
+Code is released under the [MIT License](LICENSE). Technical notes (PDFs) are shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): feel free to use them with attribution. All material is provided as-is, for educational purposes, with no warranty.
