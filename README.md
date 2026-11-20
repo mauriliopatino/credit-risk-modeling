@@ -19,11 +19,19 @@ Data for note 6: Kaggle, "Give Me Some Credit" (2011), https://www.kaggle.com/c/
 
 ## In preparation
 
-- Transition and generator matrices for credit portfolios: estimation, embeddability, and applications.
-- LGD estimation: workout approach, censoring, and downturn adjustments.
-- Survival analysis (Cox) and credibility theory for portfolios with limited history.
-- Empirical PD-LGD correlation with agency loan-level data.
-- Credit scoring: calibration by segment, weight of evidence, and Bayesian estimation for small segments.
+In the order planned:
+
+1. Calibration by segment: right on average, wrong by segment.
+2. Bayesian estimation of PD for segments with few defaults.
+3. Weight of evidence: when it helps and when it gets in the way.
+4. Non-linearity and interactions in credit scoring.
+5. Scorecards without starting from a logistic regression.
+6. Recalibration with few defaults.
+7. PD over time: validation by vintage, survival analysis (Cox), lifetime PD with competing risks, and point-in-time versus through-the-cycle PD.
+8. LGD estimation: workout approach, censoring, and downturn LGD.
+9. Empirical PD-LGD co-movement with agency loan-level data.
+10. Calibration of the Basel asset correlation with agency loan-level data.
+11. Transition and generator matrices for credit portfolios: estimation, embeddability, and applications.
 
 ## References
 
