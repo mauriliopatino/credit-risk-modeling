@@ -1,4 +1,4 @@
-# Credit Risk Modeling — A Practitioner's Series
+# Credit Risk Modeling: A Practitioner's Series
 
 **Maurilio Patiño García**
 
@@ -13,6 +13,9 @@ A series of technical notes and Python notebooks on credit risk, starting from t
 | 3 | VaR vs Expected Shortfall: the technical case | Notebook + PDF | [Notebook](VaR_vs_Expected_Shortfall.ipynb) · [PDF](VaR_vs_Expected_Shortfall.pdf) |
 | 4 | The copula inside the Basel formula | Notebook + PDF | [Notebook](The_Copula_Inside_the_Basel_Formula.ipynb) · [PDF](The_Copula_Inside_the_Basel_Formula.pdf) |
 | 5 | Why does Basel survive heavy tails? | Notebook + PDF | [Notebook](Misspecified_Copulas_in_Credit_Risk.ipynb) · [PDF](Why%20Basel%20Survives%20Heavy%20Tails.pdf) |
+| 6 | If you need a PD, don't rebalance | Notebook + PDF | [Notebook](If_You_Need_a_PD_Dont_Rebalance.ipynb) · [PDF](If_You_Need_a_PD_Dont_Rebalance.pdf) |
+
+Data for note 6: Kaggle, "Give Me Some Credit" (2011), https://www.kaggle.com/c/GiveMeSomeCredit. The notebook reads a local copy of `cs-training.csv` if there is one, otherwise downloads an identical public copy, and in both cases verifies its SHA-256 hash.
 
 ## In preparation
 
@@ -20,7 +23,7 @@ A series of technical notes and Python notebooks on credit risk, starting from t
 - LGD estimation: workout approach, censoring, and downturn adjustments.
 - Survival analysis (Cox) and credibility theory for portfolios with limited history.
 - Empirical PD-LGD correlation with agency loan-level data.
-- Credit scoring: from logistic scorecards to machine learning challengers.
+- Credit scoring: calibration by segment, weight of evidence, and Bayesian estimation for small segments.
 
 ## References
 
@@ -47,8 +50,24 @@ A series of technical notes and Python notebooks on credit risk, starting from t
 - M. B. Gordy. "A Risk-Factor Model Foundation for Ratings-Based Bank Capital Rules". Journal of Financial Intermediation, 12(3):199–232, 2003.
 - A. Hamerle, D. Rösch. "Misspecified Copulas in Credit Risk Models: How Good is Gaussian?". Journal of Risk, 8(1):41–58, 2005.
 - D. Brigo, A. Pallavicini, R. Torresetti. "Credit Models and the Crisis: A Journey into CDOs, Copulas, Correlations and Dynamic Models". Wiley, 2010.
+- T. Gneiting, A. E. Raftery. "Strictly Proper Scoring Rules, Prediction, and Estimation". Journal of the American Statistical Association, 102(477):359–378, 2007.
 - T. Gneiting. "Making and Evaluating Point Forecasts". Journal of the American Statistical Association, 106(494):746–762, 2011.
 - S. Emmer, M. Kratz, D. Tasche. "What Is the Best Risk Measure in Practice? A Comparison of Standard Measures". Journal of Risk, 18(2):31–60, 2015.
+
+### Papers: credit scoring and classification
+
+- G. W. Brier. "Verification of Forecasts Expressed in Terms of Probability". Monthly Weather Review, 78(1):1–3, 1950.
+- J. A. Hanley, B. J. McNeil. "The Meaning and Use of the Area under a Receiver Operating Characteristic (ROC) Curve". Radiology, 143(1):29–36, 1982.
+- R. Kerber. "ChiMerge: Discretization of Numeric Attributes". Proceedings of AAAI-92, 1992.
+- J. C. Platt. "Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods". Advances in Large Margin Classifiers, MIT Press, pages 61–74, 1999.
+- C. Elkan. "The Foundations of Cost-Sensitive Learning". Proceedings of IJCAI-01, pages 973–978, 2001.
+- G. King, L. Zeng. "Logistic Regression in Rare Events Data". Political Analysis, 9(2):137–163, 2001.
+- N. V. Chawla, K. W. Bowyer, L. O. Hall, W. P. Kegelmeyer. "SMOTE: Synthetic Minority Over-sampling Technique". Journal of Artificial Intelligence Research, 16:321–357, 2002.
+- B. Zadrozny, C. Elkan. "Transforming Classifier Scores into Accurate Multiclass Probability Estimates". Proceedings of KDD 2002, pages 694–699, 2002.
+- Z. C. Lipton, C. Elkan, B. Narayanaswamy. "Optimal Thresholding of Classifiers to Maximize F1 Measure". ECML PKDD 2014, LNCS 8725, Springer, 2014.
+- G. Ke et al. "LightGBM: A Highly Efficient Gradient Boosting Decision Tree". Advances in Neural Information Processing Systems 30, 2017.
+- R. van den Goorbergh, M. van Smeden, D. Timmerman, B. Van Calster. "The Harm of Class Imbalance Corrections for Risk Prediction Models: Illustration and Simulation Using Logistic Regression". Journal of the American Medical Informatics Association, 29(9):1525–1534, 2022.
+- A. Carriero, K. Luijken, A. de Hond, K. G. M. Moons, B. Van Calster, M. van Smeden. "The Harms of Class Imbalance Corrections for Machine Learning Based Prediction Models: A Simulation Study". Statistics in Medicine, 2025.
 
 ### Regulatory Documents
 
